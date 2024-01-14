@@ -1,0 +1,41 @@
+body {
+  background: var(--base);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+main {
+  max-width: 600px;
+  width: 100%;
+  height: 100svh;
+}
+
+article {
+  margin: 1rem;
+}
+
+.title {
+  color: var(--text);
+}
+
+.top,
+.bottom {
+  margin: 1rem 0rem;
+  border-color: var(--lavender);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
+.top .display {
+  min-height: 2rem;
+  background-color: var(--surface0);
+}
